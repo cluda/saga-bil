@@ -4,7 +4,10 @@
 
 @import "variables";
 @import "landing";
+@import "footer";
+@import "biler";
+@import "kontakt";
 
-body {
-    background-color: green;
+.content {
+    min-height: 80vh;
 }

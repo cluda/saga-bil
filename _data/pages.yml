@@ -1,0 +1,11 @@
+- name: Home 
+  link: / 
+
+- name: Biler 
+  link: /biler
+
+- name: Finansiering
+  link: /finans
+
+- name: Kontakt
+  link: /kontakt

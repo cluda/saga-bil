@@ -1,0 +1,33 @@
+<footer class="container-fluid" role="contentinfo">
+    <div class="row">
+        <div class="col col-md-3">
+            <ul>
+                <li>Saga Bil AS</li>
+                <li>Straumeveien 20</li>
+                <li>5152 Bønes</li>
+                <li>Orgnr: 918 860 681</li>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col col-md-3">
+            <h6>Kontakt</h6>
+            <ul>
+                <li>
+                    <b>Telefon:</b> <br/> 474 14 339 / 911 35 991
+                </li>
+                <li>
+                    <b>Epost:</b> <br/> post@sagabil.no
+                </li>
+            </ul>
+        </div>
+        <div class="col col-md-3">
+            <ul>
+                {% for page in site.data.pages %}
+                <li>
+                    <a href="{{ page.link | prepend: site.baseurl }}">{{ page.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+</footer>

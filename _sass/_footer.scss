@@ -1,0 +1,21 @@
+footer {
+    background-color: #424242;
+    color: #a1a1a1;
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    a {
+        color: #fff;
+        &:hover {
+            color: #a1a1a1;
+        }
+    }
+
+    ul,li {
+        list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0;
+    }
+}
