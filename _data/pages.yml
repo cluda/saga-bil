@@ -7,5 +7,11 @@
 - name: Finansiering
   link: /finans
 
+- name: Garanti
+  link: /garanti
+
+- name: Selge bil
+  link: /selge-bil
+
 - name: Kontakt
   link: /kontakt
