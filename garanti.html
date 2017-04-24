@@ -3,12 +3,79 @@ layout: page
 ---
 <div class="garanti">
     <h1 class="page-header">Garanti</h1>
+
+
     <p>
-        Gjennom vår partneravtaler med kan vi levere en omfattende bruktbilgaranti på våre verkstedskontrollerte biler. Dette både som forlengelse av nybilgarantien eller Exclusiv bruktbilgaranti ( gjelder biler som er utenfor nybilgarantiperioden ).
+        Gjennom vår partneravtale med Car protect kan vi levere en omfattende bruktbilgaranti på våre biler. Dette både som forlengelse av nybilgarantien eller Exclusiv bruktbilgaranti ( gjelder biler som er utenfor nybilgarantiperioden ).
     </p>
 
     <p>
-        Dette kan spare deg for uventede overraskelser og eliminerer risiko for dyre reparasjoner.
-        Garantireparasjoner kan innen garantiperioden leveres til valgfri merkeforhandler i hele Norge!
+        Dette kan spare deg for uventede overraskelser og eliminerer risiko for dyre reparasjoner. Garantireparasjoner kan innen garantiperioden leveres til valgfri merkeforhandler i hele Norge!
     </p>
+
+    <h4>Våre garantier</h4>
+
+    <ul>
+        <li><a href="#" data-toggle="modal" data-target="#forlenget-nybilgaranti">Forlengret nybilgaranti</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#eksklusiv-garanti">Eksklusiv garanti</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#premium-garanti">Premium garanti</a></li>
+    </ul>
+
+    <div class="modal fade" id="forlenget-nybilgaranti" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Forlengret Nybilgaranti</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    {% include garantier/forlenget-nybil.html %}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Lukk</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="eksklusiv-garanti" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Eksklusiv garanti</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    {% include garantier/eksklusiv.html %}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Lukk</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="premium-garanti" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Premium garanti</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    {% include garantier/premium.html %}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Lukk</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img alt="" src="{{ '/img/car-protect-garanti.jpg' | prepend: site.baseurl }}" width="100%" />
 </div>
