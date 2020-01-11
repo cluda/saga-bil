@@ -56,9 +56,9 @@ footer .cluda-col {
 }
 .finans img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 30px;
+  max-width: 250px;
+  margin-bottom: 20px;
 }
 .content {
   min-height: 80vh;
