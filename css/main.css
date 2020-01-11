@@ -42,6 +42,18 @@ footer .cluda-col {
   margin-left: 0;
   padding-left: 0;
 }
+
+.kontakt img {
+  max-height: 400px;
+}
+
+.kontakt .promo-img {
+    max-height: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
 .kontakt .overlay {
   background: transparent;
   position: relative;
@@ -69,7 +81,7 @@ footer .cluda-col {
 }
 
 .garanti-logo {
-    max-width: 400px;
-    margin: auto;
-    display: block;
+  max-width: 400px;
+  margin: auto;
+  display: block;
 }
